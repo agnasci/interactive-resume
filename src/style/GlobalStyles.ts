@@ -6,8 +6,4 @@ export default createGlobalStyle`
     padding: 0;
     font-family: 'Inter', sans-serif;
   }
-
-  :root {
-    --white: #f2f3f5;
-  }
 `

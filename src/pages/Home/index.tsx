@@ -2,10 +2,15 @@ import React from 'react';
 
 import { Container } from './styles'
 
-const Home: React.FC = () => {
+interface HomeProps {
+  onToggleTheme: () => void;
+}
+
+const Home: React.FC<HomeProps> = ({ onToggleTheme }) => {
   return (
     <Container>
       <span>Hello World!</span>
+      <button onClick={onToggleTheme}>Change Theme</button>
     </Container>
   );
 }

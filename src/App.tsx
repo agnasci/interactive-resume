@@ -1,7 +1,14 @@
+import GlobalStyles from "./style/GlobalStyles";
+
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <span>Hello World!</span>
+    <>
+      <GlobalStyles />
+
+      <Home />
+    </>
   );
 }
 
